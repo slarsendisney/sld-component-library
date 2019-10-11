@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 export default ({ title, places }) => (
   <div className="row container-small pad-20-t pad-20-b">
@@ -8,7 +8,7 @@ export default ({ title, places }) => (
       <h4 className="is-hero-sub-text">
         A
         {places.map((item, index) => (
-          <>
+          <Fragment>
             <a
               href={item.url}
               target="_blank"
@@ -19,7 +19,7 @@ export default ({ title, places }) => (
               {`${index === 0 ? ` ` : ``}${item.label}`}
             </a>
             {places.length !== index + 1 ? "/" : " "}
-          </>
+          </Fragment>
         ))}
         boilerplate.
       </h4>

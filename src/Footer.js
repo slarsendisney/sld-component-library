@@ -18,7 +18,7 @@ export default () => (
     . Happy Hacking.
     <a
       className="link is-pink"
-      href="https://sld.codes"
+      href="https://www.buymeacoffee.com/lLj8yvRAk"
       target="_blank"
       rel="noopener noreferrer"
     >

@@ -1,11 +1,11 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 import "../styles/global.scss";
-import GetThis from "../lib/GetThis";
-import Footer from "../lib/Footer";
-import Hero from "../lib/Hero";
+import GetThis from "../GetThis";
+import Footer from "../Footer";
+import Hero from "../Hero";
 import Logo from "../images/watermelon.png";
-import Header from "../lib/Header";
+import Header from "../Header";
 
 const places = [
   {
